@@ -12,7 +12,7 @@ const UserEntity = new EntityType('User', {
   firstName: { type: Types.string },
   lastName: { type: Types.string },
   genderPreference: { type: Types.number },
-  createdAt: { type: Types.dateTime, index: true}
+  createdAt: { type: Types.dateTime, index: true }
 })
 ```
 
