@@ -15,3 +15,16 @@ const User = new EntityType('User', {
   createdAt: { type: Types.dateTime, index: true}
 })
 ```
+
+### inserting a model
+```javascript
+const jason = UserEntity
+  user.setProperty(
+    'canonicalEmail',
+    'jasonbyttow@gmail.com'
+  )
+  insertEntity((jason)
+  .then((user) => {
+    console.log(`user ${user.getProperty('canonicalEmail')} added`)
+  })
+ ```
