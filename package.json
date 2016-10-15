@@ -1,0 +1,21 @@
+{
+  "name": "Tachyon",
+  "version": "0.0.1",
+  "main": "dev-build/server/index.js",
+  "author": "Jason Byttow",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-plugin-transform-styles": "0.0.3",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-stage-2": "^6.11.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.2.1",
+    "knex": "^0.11.10",
+    "uuid": "^2.0.2"
+  }
+}
