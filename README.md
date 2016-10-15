@@ -28,8 +28,8 @@ const newUser = UserEntity
     console.log(`user ${user.getProperty('canonicalEmail')} added`)
   })
  ```
-
- ### retrieving a model
+ 
+### retrieving a model
  ```javascript
  getEntityByKeyValue(
    UserEntity.type,
