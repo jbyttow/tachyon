@@ -6,7 +6,7 @@ TachyonDB provides a schemaless interface for building and manipulating object m
 
 ## interface 
 ### defining a model
-```
+```javascript
 const User = new EntityType('User', {
   canonicalEmail: { type: Types.string, index: true },
   firstName: { type: Types.string },
