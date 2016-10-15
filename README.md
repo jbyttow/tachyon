@@ -25,7 +25,7 @@ const newUser = UserEntity
   )
   insertEntity((newUser)
   .then((user) => {
-    console.log(`user ${user.getProperty('canonicalEmail')} added`)
+    console.log(`user ${newUser.getProperty('canonicalEmail')} added`)
   })
  ```
  
