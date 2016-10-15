@@ -18,12 +18,12 @@ const User = new EntityType('User', {
 
 ### inserting a model
 ```javascript
-const jason = UserEntity
+const newUser = UserEntity
   user.setProperty(
     'canonicalEmail',
     'jasonbyttow@gmail.com'
   )
-  insertEntity((jason)
+  insertEntity((newUser)
   .then((user) => {
     console.log(`user ${user.getProperty('canonicalEmail')} added`)
   })
