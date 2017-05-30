@@ -19,7 +19,7 @@ const UserEntity = new EntityType('User', {
 ### inserting a model
 ```javascript
 const newUser = UserEntity
-  user.setProperty(
+  newUser.setProperty(
     'canonicalEmail',
     'jasonbyttow@gmail.com'
   )
